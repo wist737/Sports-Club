@@ -1,0 +1,150 @@
+<!doctype html>
+<html>
+
+<head>
+<link rel="stylesheet" href="styleshhet.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+
+<script src="particlejs/sl.js"></script>
+</head>
+<body style="background-color:#EDF5F4">
+
+<div class="p" id="ds">
+  <ul>
+    <li><a href="#about" id="scroll2">About Us</a></li>
+    <li><a href="#news" id="scroll1">News</a></li>
+    <li><a href="#followus" id="scroll">Follow Us</a></li>
+    <li><a href="" class="active">Club</a></li>
+  </ul>
+  <span id="pet">Get your Sports</SPAN>
+</div>
+
+<div class="slideshow-container">
+  <div class="mySlides fade">
+    <img src="sports1.jpg" alt="">
+  </div>
+  <div class="mySlides fade" style="display:block;">
+    <img src="C:\Users\HP\Videos\Captures\SUD\sports.jpg" style="margin-left:10px;width:99%;height:710px;">
+  </div>
+  <div class="mySlides fade">
+    <img src="C:\Users\HP\Videos\Captures\SUD\basketball.jpg" style="margin-left:10px;width:99%;height:710px;">
+  </div>
+  <div class="mySlides fade">
+    <img src="C:\Users\HP\Videos\Captures\SUD\horse.jpg" style="margin-left:10px;width:99%;height:710px;">
+  </div>
+
+  <a class="prev" onclick="s(-1)">&#10094;</a>
+  <a class="next" onclick="s(1)">&#10095;</a>
+</div>
+
+<a href="">
+  <button class="ol" type="submit" value="Google Search">Game Club</button>
+  <br>
+</a>
+
+<div style="text-align:center">
+  <span class="dot" onclick="c(1)"></span>
+  <span class="dot" onclick="c(2)"></span>
+  <span class="dot" onclick="c(3)"></span>
+</div>
+
+<p style="width:50px;height:20;background-color:skyblue;position:absolute;top:550px;left:1300px;">
+  <i class="fa fa-arrow-circle-up" id="tifer" aria-hidden="true" onclick="tiger()" style="font-size:35px;cursor:pointer;position:fixed"></i>
+</p>
+
+<div id="appp">
+  <table>
+    <tr>
+      <th><div class="aio"><img src="C:\Users\HP\Videos\Captures\SUD\cycle.jpg"><h1>Cycling</h1></div></th>
+      <th><div class="aio"><img src="C:\Users\HP\Videos\Captures\SUD\basketball.jpg"><h1>Basketball</h1></div></th>
+      <th><div class="aio"><img src="C:\Users\HP\Videos\Captures\SUD\iceskating.jpg"><h1>Ice Skating</h1></div></th>
+      <th><div class="aio"><img src="C:\Users\HP\Videos\Captures\SUD\horse.jpg"><h1>Horse Riding</h1></div></th>
+      <th><div class="aio"><img src="C:\Users\HP\Videos\Captures\SUD\volleyball.jpg"><h1>Volleyball<h1></div></th>
+    </tr>
+    <tr>
+      <th><div class="aio"><img src="C:\Users\HP\Videos\Captures\SUD\running.jpg"><h1>Running</h1></div></th>
+      <th><div class="aio"><img src="C:\Users\HP\Videos\Captures\SUD\archery.jpg"><h1>Archery</h1></div></th>
+      <th><div class="aio"><img src="C:\Users\HP\Videos\Captures\SUD\football.jpg"><H1>Football</H1></div></th>
+    </tr>
+    <tr>
+      <th><div class="aio"><img src="C:\Users\HP\Videos\Captures\SUD\judo.jpg"><h1>Judo</h1></div></th>
+      <th><div class="aio"><img src="C:\Users\HP\Videos\Captures\SUD\swimming.jpg"><h1>Swimming</h1></div></th>
+      <th><div class="aio"><img src="C:\Users\HP\Videos\Captures\SUD\waterpool.jpg"><H1>WaterPool</H1></div></th>
+      <th><div class="aio"><img src="C:\Users\HP\Videos\Captures\SUD\masthead.png"><H1>Masthead Racing</H1></div></th>
+    </tr>
+  </table>
+</div>
+
+<!-- News and About Us Section -->
+<div style="display: flex; justify-content: space-between; margin: 20px 0;">
+  <div id="news" class="news-section" style="border: 2px solid #ccc; padding: 20px; width: 48%;">
+    <h2>Latest Sports News</h2>
+    <div class="news-item" style="display: flex; align-items: center; margin-bottom: 15px;">
+      <img src="https://c.ndtvimg.com/2024-08/9doprdl8_manish-narwal_625x300_30_August_24.jpeg?im=FeatureCrop,algorithm=dnn,width=530,height=400&output-quality=80" alt="News Image" style="width: 150px; height: 100px; margin-right: 20px; border: 1px solid #ccc;">
+      <p> Manish Narwal Wins Shooting Silver; Avani Lekhara Makes History</p>
+    </div>
+    <div class="news-item" style="display: flex; align-items: center; margin-bottom: 15px;">
+      <img src="https://img.etimg.com/thumb/msid-112912396,width-300,height-225,imgsize-74900,resizemode-75/us-open-carlos-alcarazs-15-match-grand-slam-win-streak-ends-in-loss-to-botic-van-de-zandschulp.jpg" alt="News Image" style="width: 150px; height: 100px; margin-right: 20px; border: 1px solid #ccc;">
+      <p>US Open: Carlos Alcaraz knocked out in round 2, grand slam streak ends!</p>
+    </div>
+    <div class="news-item" style="display: flex; align-items: center; margin-bottom: 15px;">
+      <img src="https://bloximages.chicago2.vip.townnews.com/times-news.com/content/tncms/assets/v3/editorial/5/67/56717050-6620-11ef-a8ba-67581c08946c/66d09bfeac0bf.image.jpg?resize=737%2C500" alt="News Image" style="width: 150px; height: 100px; margin-right: 20px; border: 1px solid #ccc;">
+      <p>Ashley Martin becomes the first woman to play in a Division I football game</p>
+    </div>
+    <div class="news-item" style="display: flex; align-items: center; margin-bottom: 15px;">
+      <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1pHrRw.img?w=534&h=300&m=6" alt="News Image" style="width: 150px; height: 100px; margin-right: 20px; border: 1px solid #ccc;">
+      <p>Pakistan vs Bangladesh 2nd Test: Day 1 Washed Out By Rain Before Toss</p>
+    </div>
+    <div class="news-item" style="display: flex; align-items: center; margin-bottom: 15px;">
+      <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1pGtTl.img?w=534&h=360&m=6&x=280&y=64&s=87&d=87" alt="News Image" style="width: 150px; height: 100px; margin-right: 20px; border: 1px solid #ccc;">
+      <p> Cristiano Ronaldo Receives Special Award From UEFA Champions League For Being Highest Goal-Scorer</p>
+    </div>
+  </div>
+
+  <div id="about" class="about-us" style="border: 2px solid #ccc; padding: 20px; width: 48%; background-color: #f5f5f5;">
+    <h2>About Us</h2>
+    <p>
+      <strong>WHO WE ARE</strong><br/><b>THE TEAM COOL CREW</b><br/><br/>
+      Welcome to [Your Website Name]—your ultimate destination for everything sports! Whether you’re a passionate fan or a dedicated athlete, we are here to bring you the latest news, in-depth analysis, and exclusive insights from the world of sports.
+
+Our Mission
+At [Your Website Name], our mission is to celebrate the spirit of sports and bring you closer to the action. We are committed to delivering accurate, timely, and engaging sports news that keeps you informed and connected with your favorite teams, athletes, and events. Our goal is to be your trusted source for all things sports, offering a comprehensive view of the games you love.
+
+What We Offer
+Breaking News & Updates: Stay on top of the latest scores, game results, and headlines from around the world.
+Expert Analysis: Dive deep into the stats, trends, and strategies that shape the games.
+Exclusive Interviews: Gain insights from players, coaches, and industry insiders.
+Club Activities: Join our community to participate in events, discussions, and more.<br/>
+    </p>
+  </div>
+</div>
+
+<!-- Video Section -->
+<div class="video-section" style="margin: 20px 0;">
+  <h2>Highlights From Football Match</h2>
+  <div class="video-wrapper" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; background: #000;">
+    <video controls autoplay loop muted  src="C:\Users\HP\Videos\Captures\videoplayback (2).mp4" title="Featured Video" frameborder="0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen></iframe>
+  </div>
+</div>
+
+<div class="poo">
+  <span class="number">1..</span><a href="api.html" style="text-decoration:none"></a>
+</div>
+
+<div id="followus" class="follow-us" style="background-color: black; border: 2px solid grey; padding: 20px;">
+  <p class="f1" style="color: white;">FOLLOW US</p><br/>
+  <div style="font-size:40px" class="op">
+    <a href="https://www.facebook.com/Get-your-API-143689296299831/?modal=admin_todo_tour" id="p9" class="fa fa-facebook"></a>
+    <a href="https://x.com/zahid06403843" id="p9" class="fa fa-twitter"></a>
+    <a href="https://www.instagram.com/waj_idxx/" id="p9" class="fa fa-instagram"></a>
+    <a href="https://www.linkedin.com/company/get-your-api/" id="p9" class="fa fa-linkedin"></a>
+  </div>
+</div>
+
+</body>
+</html>
